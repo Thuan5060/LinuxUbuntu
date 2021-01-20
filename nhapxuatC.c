@@ -1,8 +1,9 @@
 #include<stdio.h>
 int main()
-{
+{	
+	int bienhaha;
 	int n;
-	printf("Nhap N:");
-	scanf("%d",&n);
-	printf("N la: %d ",n);
+	printf("Haha:");
+	scanf("%d",&bienhaha);
+	printf("N la: %d ",hahah);
 }
