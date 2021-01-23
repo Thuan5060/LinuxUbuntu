@@ -1,0 +1,27 @@
+#!/bin/sh
+#a=10
+#b=20
+#nhap a va b 
+echo $a #khai bao bien a 
+echo "Nhap a: " 
+read a 
+echo $b #khai bao bien a 
+echo "Nhap b: "
+read b
+val=`expr $a + $b` #khoi tao bien gia tra val= $a+$b
+	echo "a+b: $val"
+val=`expr $a - $b` 
+	echo "a-b: $val"
+val=`expr $a \* $b`
+	echo "a&b: $val"
+val=`expr $a / $b`
+	echo "a/b: $val"
+val=`expr $a % $b`
+	echo "a%b: $val"
+
+if [ $a == $b ];then 
+	echo " a bang b"
+fi #ket thuc cua moi if dau su dung fi
+if [ $a != $b ];then 
+	echo " a khong bang b"
+fi
