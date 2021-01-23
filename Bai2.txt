@@ -1,0 +1,16 @@
+*Cac phep toan quan he
+
+-ep #kiem tra gia tri cua toan hang co = hoac khong. Neu = thi dieu kien la True
+-ne #Kiem tra gia tri cua toan hang co = hay khong, Neu khong thi dieu kien tra la False
+-gt #Kiem tra gia tri cua toan hang trai co > hon gia tri cua toan hang phai hay khong.
+Neu dung thi tra ve dieu kien la True
+-lt #Kiem tra toan hang trai co < toan hang phai hay khong, Neu dung thi tra ve la True
+
+-ge #Kiem tra toan hang trai co >= toan hang phai hay khong. Neu phai thi tra ve la TRue
+
+-le #Kiem tra toan hang trai co <= toan hang phai hay khong. Neu phai thi tra ve TRue
+
+*Cac phep toan logic
+! #phep phu dinh. Neu dieu kien dung thi gia tri sai va nguoc lai
+-o #Phep hoac. Neu mot trong cac toan hang la dung thi dieu kien la dung
+-a #Phep va. Neu ca hai toan hang deu dung thi dieu kien la dung, ngoai ra toan sai
