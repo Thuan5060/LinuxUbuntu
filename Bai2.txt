@@ -1,6 +1,6 @@
 *Cac phep toan quan he
 
--ep #kiem tra gia tri cua toan hang co = hoac khong. Neu = thi dieu kien la True
+-eq #kiem tra gia tri cua toan hang co = hoac khong. Neu = thi dieu kien la True
 -ne #Kiem tra gia tri cua toan hang co = hay khong, Neu khong thi dieu kien tra la False
 -gt #Kiem tra gia tri cua toan hang trai co > hon gia tri cua toan hang phai hay khong.
 Neu dung thi tra ve dieu kien la True

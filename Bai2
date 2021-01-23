@@ -1,0 +1,25 @@
+#!/bin/sh
+a=5 #gan gia tri a =10
+b=20 #gan gia tri b=20
+
+if [$a -ep $b ] #Neu a =  b
+ then
+	echo "$a -ep $b:a bang b"
+else
+	echo "$a -ep $b:a khong bang b"
+fi 
+if [$a -ne $b ] #Neu a!=b
+ then
+	echo "[$a -ne $b ]: a bang b" #hien thi ra ra
+else 
+	echo "[$a -ne $b ]: a khac b"
+
+fi
+ 
+if [$a -gt $b ] # neu a>b
+ then 
+	echo "[$a -gt $b ]:  a>b"
+else
+	echo "[$a -gt $b ]: a<b"
+fi
+ 
